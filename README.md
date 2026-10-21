@@ -11,7 +11,7 @@ SLIDE 1: TITLE SLIDE
 UNDER-FIVE MORTALITY ANALYSIS
 Exploring Historical Trends and Predicting Child Mortality Using Health and Socioeconomic Indicators
 Sustainable Development Goal 3: Good Health and Well-being
-Presented by: [Your Name]
+Presented by: Tumpeine Noel Lerrian
 Technologies used:
 	Python 
 	Pandas and NumPy 
@@ -133,14 +133,10 @@ Evaluation Metrics
 Three principal metrics were used to compare regression model performance.
 1. Mean Absolute Error (MAE)
 MAE measures the average absolute difference between actual and predicted values.
-MAE=1/n ∑_(i=1)^n▒∣ y_i-y ̂_i∣
-
 A lower MAE indicates smaller average absolute prediction errors.
 For the tuned Random Forest, the recorded MAE was approximately 8.73 deaths per 1,000 live births.
 2. Root Mean Squared Error (RMSE)
 RMSE measures prediction error while giving greater weight to larger errors.
-RMSE=√(1/n ∑_(i=1)^n▒( ├ y_i-y ̂_i ├ )┤^2 ┤ )
-
 A lower RMSE indicates better performance according to this metric.
 The tuned Random Forest recorded an RMSE of approximately 18.83.
 3. Coefficient of Determination (R²)
