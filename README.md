@@ -21,7 +21,7 @@ Technologies used:
 Project objective: To explore historical under-five mortality patterns and evaluate how effectively selected health and socioeconomic indicators can predict under-five mortality rates.
 Suggested visual: Include a relevant child-health image alongside the SDG 3 icon.
 ________________________________________
-SLIDE 2: PROBLEM STATEMENT
+SLIDE 2: BUSINESS UNDERSTANDING
 Background and Problem Statement
 Under-five mortality is an important indicator of child health and the broader health conditions of a population. Understanding its historical patterns can help researchers explore changes in child survival and investigate factors associated with mortality.
 Health and socioeconomic conditions may be associated with differences in under-five mortality across countries and years.
@@ -61,7 +61,7 @@ These features were selected to investigate whether the indicators could help pr
 Dataset dimensions: 4,425 rows × 10 columns in the complete modeling dataset.
 Note: Before final submission, verify the exact World Bank indicator code and measurement unit for Health_Expenditure from the notebook or source metadata. Its precise definition should not be assumed from the column name alone.
 ________________________________________
-SLIDE 5: EXPLORATORY DATA ANALYSIS
+SLIDE 5: DATA UNDERSTANDING
 Exploratory Data Analysis (EDA)
 Exploratory Data Analysis was conducted to understand the dataset's structure, identify data-quality issues, and examine historical patterns before model development.
 Activities Performed
@@ -102,7 +102,8 @@ The training set was used to fit the models, while the testing set was used to e
 This approach better reflects the task of using historical data to predict later observations than a random split would.
 Limitation: Countries may appear in both the training and testing sets. Therefore, this evaluation does not establish how well the models would perform on entirely unseen countries.
 ________________________________________
-SLIDE 7: MACHINE LEARNING MODELS AND METHODOLOGY
+SLIDE 7: MODELING
+Machine Learning Modeling and Methodology
 Models Developed and Evaluated
 Regression models were used because the target variable, under-five mortality, is numerical.
 Four main model families were explored.
@@ -128,7 +129,7 @@ Model Development Process
 	Investigated individual prediction errors. 
 The project also explored hyperparameter tuning and time-aware cross-validation for Random Forest.
 ________________________________________
-SLIDE 8: MODEL EVALUATION METRICS
+SLIDE 8: EVALUATION 
 Evaluation Metrics
 Three principal metrics were used to compare regression model performance.
 1. Mean Absolute Error (MAE)
